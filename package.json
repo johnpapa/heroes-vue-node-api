@@ -1,0 +1,47 @@
+{
+  "name": "heroes-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "local-proxy": "concurrently \"npm run local\" \"npm run serve\"",
+    "start": "node server.js",
+    "start_debug": "node --inspect=0.0.0.0:9229 server.js",
+    "local": "node -r dotenv/config server.js",
+    "debug": "node -r dotenv/config --inspect=9229 server.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.10",
+    "@fortawesome/free-solid-svg-icons": "^5.6.1",
+    "@fortawesome/vue-fontawesome": "^0.1.3",
+    "axios": "^0.18.0",
+    "bulma": "^0.7.2",
+    "@azure/cosmos": "^2.0.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.4",
+    "@vue/cli-service": "^3.1.2",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "concurrently": "^4.0.1",
+    "cypress": "^3.1.3",
+    "dotenv": "^7.0.0",
+    "eslint": "^5.10.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "json-server": "^0.14.0",
+    "json-server-reset": "^1.0.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
