@@ -1,5 +1,5 @@
 # Client App
-FROM node:10.15-alpine as client-app
+FROM node:lts-alpine as client-app
 LABEL authors="John Papa"
 WORKDIR /usr/src/app
 COPY package*.json ./
@@ -10,7 +10,7 @@ ENV VUE_APP_API $VUE_APP_API
 RUN npm run build
 
 # Node server
-FROM node:10.15-alpine as node-server
+FROM node:lts-alpine as node-server
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --production --silent && mv node_modules ../
@@ -18,7 +18,7 @@ COPY server.js .
 COPY /server /usr/src/app/server
 
 # Final image
-FROM node:10.15-alpine
+FROM node:lts-alpine
 WORKDIR /usr/src/app
 # get the node server
 COPY --from=node-server /usr/src /usr/src
