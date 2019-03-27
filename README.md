@@ -27,13 +27,15 @@ Hosted in [Azure](https://aka.ms/jp-free)
 
    ```bash
    npm install
-   ```
+   ```w
 
 1. Run the app!
 
    ```bash
    npm run dev-proxy
    ```
+
+1. Browse to <http://localhost:9001>
 
 ## Docker
 
@@ -43,6 +45,10 @@ Hosted in [Azure](https://aka.ms/jp-free)
 ### Why Docker
 
 You can host the app any way you prefer. I chose Docker because it is familiar to me and makes it easy to run anywhere (local or cloud). You do you though and feel free to run this in your own way.
+
+## Debugging
+
+- [Learn more about how to debug this app here](/DEBUG.md)
 
 ## Problems or Suggestions
 

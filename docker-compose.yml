@@ -1,8 +1,8 @@
 version: '2.1'
 
 services:
-  heroes-vue:
-    image: heroes-vue
+  heroes-vue-node-api:
+    image: heroes-vue-node-api
     build:
       context: .
       args:
