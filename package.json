@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "acr": "az acr login --name papacr",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -11,7 +10,8 @@
     "start": "node server.js",
     "start_debug": "node --inspect=0.0.0.0:9229 server.js",
     "local": "node -r dotenv/config server.js",
-    "local_debug": "node -r dotenv/config --inspect=9229 server.js"
+    "local_debug": "node -r dotenv/config --inspect=9229 server.js",
+    "acr": "az acr login"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.10",
