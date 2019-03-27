@@ -24,8 +24,20 @@
       "breakOnLoad": true,
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webRoot}/*",
-        "webpack:///./src/*": "${webRoot}/*",
+        "webpack:///./src/*": "${webRoot}/*"
       }
+    },
+    {
+      // Debug the node server directly
+      "type": "node",
+      "request": "launch",
+      "name": "Launch server.js",
+      "program": "${workspaceFolder}/server.js",
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "WWW": "./dist"
+      },
+      "args": ["-r dotenv/config", "--inspect"]
     }
   ]
 }

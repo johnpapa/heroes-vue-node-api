@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "dev-proxy": "concurrently \"npm run local\" \"npm run serve\"",
+    "dev-proxy": "concurrently \"npm run local_debug\" \"npm run serve\"",
     "start": "node server.js",
     "start_debug": "node --inspect=0.0.0.0:9229 server.js",
     "local": "node -r dotenv/config server.js",
