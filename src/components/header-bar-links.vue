@@ -4,7 +4,7 @@
       <div class="navbar-item">
         <div class="buttons">
           <a
-            href="https://github.com/johnpapa/heroes-vue"
+            href="https://github.com/johnpapa/heroes-vue-node-api"
             target="_blank"
             rel="noopener noreferrer"
           >
