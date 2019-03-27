@@ -38,6 +38,14 @@
         "WWW": "./dist"
       },
       "args": ["-r dotenv/config", "--inspect"]
+    },
+    {
+      // Debug whichever file is open and focused
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "name": "Launch Relative File",
+      "args": ["${relativeFile}"]
     }
   ]
 }
