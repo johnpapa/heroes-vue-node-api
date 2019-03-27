@@ -1,7 +1,7 @@
 <template>
   <div class="content-container">
     <div class="content-title-group not-found">
-      <h2 class="title">Vue Conf 2019 Heroes</h2>
+      <h2 class="title">Vue Conf 2019 Heroes!</h2>
       <p>
         This project was created to help represent a fundamental app written
         with Vue. The heroes and villains theme is used throughout the app.
