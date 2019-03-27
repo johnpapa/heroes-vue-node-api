@@ -17,13 +17,18 @@ function start() {
 
   const app = express();
   const port = process.env.PORT || 7777;
+  const www = process.env.WWW || './dist';
   app.use(bodyParser.json());
   app.use(
     bodyParser.urlencoded({
       extended: false,
     })
   );
+  app.use(express.static(www));
   app.use('/api', routes);
+  app.get('*', (req, res) => {
+    res.sendFile(`index.html`, { root: www });
+  });
   app.listen(port, () => captains.log(`listening on http://localhost:${port}`));
 }
 

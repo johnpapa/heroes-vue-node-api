@@ -2,8 +2,8 @@ const cors = require('cors');
 
 const whitelist = [
   'https://papa-heroes-vue.azurewebsites.net',
-  'http://localhost:9626',
-  'http://localhost:9627',
+  'http://localhost:9000',
+  'http://localhost:9001',
 ];
 
 const corsOptions = {
