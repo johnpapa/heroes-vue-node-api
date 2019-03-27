@@ -10,7 +10,7 @@ How do you deploy a Vue app with Node.js server and API to the cloud? How does D
 
 ## Live Demos
 
-Hosted in [Azure](https://aka.ms/jp-free)
+Hosted in [Azure](https://azure.microsoft.com/en-us/free/?wt.mc_id=heroesvuenodeapi-github-jopapa)
 
 - [Tour of Heroes for VueConf 2019](https://papa-vueconf2019.azurewebsites.net)
 
@@ -27,9 +27,7 @@ Hosted in [Azure](https://aka.ms/jp-free)
 
    ````bash
    npm install
-   ```w
-
-   ````
+   ```
 
 1. Run the app!
 
