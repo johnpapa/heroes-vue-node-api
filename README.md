@@ -25,7 +25,7 @@ Hosted in [Azure](https://azure.microsoft.com/en-us/free/?wt.mc_id=heroesvuenode
 
 1. Install the npm packages
 
-   ````bash
+   ```bash
    npm install
    ```
 
