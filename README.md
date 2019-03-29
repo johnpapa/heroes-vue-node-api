@@ -6,13 +6,13 @@ by [John Papa](http://twitter.com/john_papa)
 
 ## Why
 
-How do you deploy a Vue app with Node.js server and API to the cloud? How does Docker help?Let's find out.
+How do you deploy a Vue app with Node.js server and API to the cloud? How does Docker help? Let's find out.
 
 ## Live Demos
 
 Hosted in [Azure](https://azure.microsoft.com/en-us/free/?wt.mc_id=heroesvuenodeapi-github-jopapa)
 
-- [Tour of Heroes for VueConf 2019](https://papa-vueconf2019.azurewebsites.net)
+- View the live app 👉[Tour of Heroes for VueConf 2019](https://papa-vueconf2019.azurewebsites.net)
 
 ## Getting Started
 
@@ -36,6 +36,8 @@ Hosted in [Azure](https://azure.microsoft.com/en-us/free/?wt.mc_id=heroesvuenode
    ```
 
 1. Browse to <http://localhost:9001>
+
+> TODO: There is a database key required for this app. I will be removing this need shortly so you can run it without that requirement.
 
 ## Docker
 
