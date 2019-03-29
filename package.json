@@ -11,7 +11,8 @@
     "start_debug": "node --inspect=0.0.0.0:9229 server.js",
     "local": "node -r dotenv/config server.js",
     "local_debug": "node -r dotenv/config --inspect=9229 server.js",
-    "acr": "az acr login"
+    "acr": "az acr login",
+    "resetdb": "node meta"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.10",
