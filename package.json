@@ -10,7 +10,7 @@
     "start": "node server.js",
     "start_debug": "node --inspect=0.0.0.0:9229 server.js",
     "local": "node -r dotenv/config server.js",
-    "local_debug": "node -r dotenv/config --inspect=9229 server.js",
+    "local_debug": "npx nodemon -r dotenv/config --inspect=9229 server.js",
     "acr": "az acr login",
     "resetdb": "node meta"
   },
