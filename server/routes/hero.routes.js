@@ -14,17 +14,14 @@ router.get('/heroes', cors(corsOptions), (req, res) => {
 
 router.post('/heroes', cors(corsOptions), (req, res) => {
   heroService.postHero(req, res);
-  res.status(201).json(req.body);
 });
 
 router.put('/heroes/:id', cors(corsOptions), (req, res) => {
   heroService.putHero(req, res);
-  res.status(200).json(req.body);
 });
 
 router.delete('/heroes/:id', cors(corsOptions), (req, res) => {
   heroService.deleteHero(req, res);
-  res.status(200).json(req.body);
 });
 
 // TODO: example of SQL query
