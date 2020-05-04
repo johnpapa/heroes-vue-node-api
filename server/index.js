@@ -8,7 +8,7 @@ function start() {
   if (!process.env.NODE_ENV || !process.env.PORT) {
     captains.error(
       'ENV variables are missing.',
-      'Verify that you have set them directly or in a .env file.'
+      'Verify that you have set them directly or in a .env file.',
     );
     process.exit(1);
   } else {
@@ -22,7 +22,7 @@ function start() {
   app.use(
     bodyParser.urlencoded({
       extended: false,
-    })
+    }),
   );
   app.use(express.static(www));
   app.use('/api', routes);
