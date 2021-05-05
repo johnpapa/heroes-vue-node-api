@@ -10,7 +10,7 @@ How do you deploy a Vue app with Node.js server and API to the cloud? How does D
 
 ## Live Demos
 
-Hosted in [Azure](https://azure.microsoft.com/en-us/free/?wt.mc_id=heroesvuenodeapi-github-jopapa)
+Hosted in [Azure](https://azure.microsoft.com/free/?WT.mc_id=javascript-0000-jopapa)
 
 - View the live app 👉[Tour of Heroes for VueConf 2019](https://papa-vueconf2019.azurewebsites.net)
 
@@ -58,16 +58,16 @@ You can host the app any way you prefer. I chose Docker because it is familiar t
 
 ## Resources
 
-- [Azure Free Trial](https://azure.microsoft.com/en-us/free/?wt.mc_id=heroesvuenodeapi-github-jopapa)
+- [Azure Free Trial](https://azure.microsoft.com/free/?WT.mc_id=javascript-0000-jopapa)
 
 ### Docker Resources
 
-- [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/?wt.mc_id=heroesvuenodeapi-github-jopapa)
+- [Azure Container Registry](https://docs.microsoft.com/azure/container-registry/?WT.mc_id=javascript-0000-jopapa)
 - [Docker Hub Registry](https://hub.docker.com/)
 
 ### VS Code Resources
 
-- [VS Code](https://code.visualstudio.com?wt.mc_id=heroesvuenodeapi-github-jopapa)
-- [VS Code Extension for Node on Azure](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack&WT.mc_id=heroesvuenodeapi-github-jopapa)
-- [Debugging Vue in VS Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?wt.mc_id=heroesvuenodeapi-github-jopapa)
-- [Create a Registry on Azure with VS Code](https://code.visualstudio.com/tutorials/docker-extension/create-registry?wt.mc_id=heroesvuenodeapi-github-jopapa)
+- [VS Code](https://code.visualstudio.com/?WT.mc_id=javascript-0000-jopapa)
+- [VS Code Extension for Node on Azure](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack&WT.mc_id=javascript-0000-jopapa)
+- [Debugging Vue in VS Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?WT.mc_id=javascript-0000-jopapa)
+- [Create a Registry on Azure with VS Code](https://code.visualstudio.com/tutorials/docker-extension/create-registry?WT.mc_id=javascript-0000-jopapa)
